@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,900&family=Grape+Nuts&family=Open+Sans:wght@500&family=Rubik+Wet+Paint&display=swap');
+
+
+a.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 27px;
+}
+
+nav{
+    z-index: 999;
+}
+h1{
+
+    text-align: center;
+
+}
+.third-header{
+
+    font-size: x-large;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #eee;
+
+}
+.phone{
+    font-size: xx-large;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+ul{
+    margin-left:70%;
+}
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+
+.login-container form{
+    padding: 10%;
+}
+
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnSubmit{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.btnSubmit:hover{
+    background-color: rgb(0, 21, 255);
+}
+
+
+.login-form-2{
+    padding: 5%;
+    background: #ffffff;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+#ShowBtn {
+    position: absolute;
+    margin-top: -34px;
+    margin-left: 325px;
+    font-size: 20px;
+    color: rgb(125, 123, 128);
+}
+
+#face{
+   margin-top:40px;
+   margin-left:120px ;
+   font-size: 21px;
+   background-color:#546dab;
+   color:white;
+}
+#google{
+    margin-top:40px;
+    margin-left:120px ;
+    font-size: 20.41px;
+    background-color: #DF4B3B;
+    color:white;
+ }
+ #face:hover{
+    background-color:#0044ff;
+ }
+ #google:hover{
+    background-color: #ff1900;
+ }

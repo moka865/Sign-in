@@ -78,29 +78,50 @@ ul{
 
 #ShowBtn {
     position: absolute;
-    margin-top: -34px;
-    margin-left: 325px;
+    top:47%;
+    right: 15%;
     font-size: 20px;
     color: rgb(125, 123, 128)
 }
 
 #face{
    margin-top:40px;
-   margin-left:120px ;
+    margin-bottom: 30px;
    font-size: 21px;
    background-color:#546dab;
    color:white;
+   width: 300px;
 }
 #google{
-    margin-top:40px;
-    margin-left:120px ;
+
     font-size: 20.41px;
     background-color: #DF4B3B;
     color:white;
+    width: 300px;
  }
  #face:hover{
     background-color:#0044ff;
  }
  #google:hover{
     background-color: #ff1900;
+ }
+ #form-2{
+        text-align: center;
+ }
+ @media screen and (max-width: 769px) {
+     #form-2 {
+        box-shadow: none;
+        margin-top: 0px;
+         width: 100vw;
+         text-align: center;
+     }
+     #face {
+         margin-right: auto;
+         margin-left: auto;
+        margin-bottom: 15px;
+     }
+     #google {
+         margin-left: auto;
+         margin-left: auto;
+     }
  }

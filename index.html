@@ -89,10 +89,11 @@
     var show = document.getElementById('ShowBtn')
     var x = document.getElementById("myInput");
     if (x.type === "password") {
-      show.className = 'bi bi-eye-fill';
       x.type = "text";
-    } else {
       show.className = 'bi bi-eye-slash-fill';
+
+    } else {
+      show.className = 'bi bi-eye-fill';
       x.type = "password";
 
     }

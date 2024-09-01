@@ -5,6 +5,7 @@
 a.navbar-brand{
     font-family: 'Sansita Swashed', cursive;
     font-size: 27px;
+  
 }
 
 nav{
@@ -138,10 +139,21 @@ nav {
          margin-left: auto;
      }
 
-  
-
 
  }
 
 
 
+.navbar-brand:hover {
+    color: rgb(118, 118, 255) !important;
+
+transition: 1s;
+
+
+}
+header{
+    margin-bottom: 20vh;
+}
+.navbar-toggler:hover{
+    background-color: #5c5c5c;
+}
